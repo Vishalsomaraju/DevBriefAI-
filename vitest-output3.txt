@@ -1,0 +1,843 @@
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mE:/DevBrief AI[39m
+
+ [32m✓[39m src/tests/security/config.test.ts [2m ([22m[2m10 tests[22m[2m)[22m[90m 120[2mms[22m[39m
+ [32m✓[39m src/tests/SUITE_TEMPLATES.test.ts [2m ([22m[2m53 tests[22m[2m)[22m[90m 46[2mms[22m[39m
+ [32m✓[39m src/tests/integration/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 14[2mms[22m[39m
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+ [32m✓[39m src/tests/unit/services/analyticsService.test.ts [2m ([22m[2m5 tests[22m[2m)[22m[90m 157[2mms[22m[39m
+ [32m✓[39m src/tests/unit/services/sessionService.test.ts [2m ([22m[2m4 tests[22m[2m)[22m[90m 102[2mms[22m[39m
+[90mstderr[2m | src/tests/unit/services/geminiService.test.ts[2m > [22m[2mGeminiService[2m > [22m[2mstreamCodeAnalysis handles error in stream[22m[39m
+[GeminiService] Streaming Error: Error: API Error
+    at [90mE:\DevBrief AI\[39msrc\tests\unit\services\geminiService.test.ts:52:49
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:135:14
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:60:26
+    at runTest [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:781:17[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runFiles [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:958:5[90m)[39m
+    at startTests [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:967:3[90m)[39m
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:116:7
+    at withEnv [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:83:5[90m)[39m
+
+[90mstderr[2m | src/tests/unit/services/geminiService.test.ts[2m > [22m[2mGeminiService[2m > [22m[2mstreamCodeAnalysis truncates long context[22m[39m
+[GeminiService] Context truncated from 35000 to 30000 characters.
+
+ [32m✓[39m src/tests/unit/services/geminiService.test.ts [2m ([22m[2m3 tests[22m[2m)[22m[90m 102[2mms[22m[39m
+ [32m✓[39m src/tests/unit/utils.test.ts [2m ([22m[2m10 tests[22m[2m)[22m[33m 535[2mms[22m[39m
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+[90mstderr[2m | src/tests/unit/services/authService.test.ts[2m > [22m[2mAuthService[2m > [22m[2msignInWithGoogle handles errors[22m[39m
+[AuthService] Google Sign-In Failed: Error: Auth failed
+    at [90mE:\DevBrief AI\[39msrc\tests\unit\services\authService.test.ts:18:52
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:135:14
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:60:26
+    at runTest [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:781:17[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runFiles [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:958:5[90m)[39m
+    at startTests [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:967:3[90m)[39m
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:116:7
+    at withEnv [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:83:5[90m)[39m
+
+ [32m✓[39m src/tests/unit/services/authService.test.ts [2m ([22m[2m4 tests[22m[2m)[22m[90m 58[2mms[22m[39m
+ [32m✓[39m src/tests/unit/components/ui/StreamingText.test.tsx [2m ([22m[2m4 tests[22m[2m)[22m[33m 493[2mms[22m[39m
+ [32m✓[39m src/tests/unit/components/features/CodeInput.test.tsx [2m ([22m[2m4 tests[22m[2m)[22m[33m 1425[2mms[22m[39m
+ [32m✓[39m src/tests/unit/components/ui/Input.test.tsx [2m ([22m[2m4 tests[22m[2m)[22m[33m 1209[2mms[22m[39m
+ [32m✓[39m src/tests/unit/components/ui/Button.test.tsx [2m ([22m[2m5 tests[22m[2m)[22m[33m 1309[2mms[22m[39m
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+ [33m❯[39m src/tests/unit/pages/LandingPage.test.tsx [2m ([22m[2m3 tests[22m [2m|[22m [31m3 failed[39m[2m)[22m[33m 1402[2mms[22m[39m
+[31m   [33m❯[31m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mrenders hero content[39m
+[31m     → Unable to find an element with the text: /Master Any Codebase/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gray-50"[31m
+    [36m>[31m
+      [36m<header[31m
+        [33mclass[31m=[32m"px-6 py-4 border-b border-gray-200 bg-white flex justify-between items-center"[31m
+      [36m>[31m
+        [36m<h1[31m
+          [33mclass[31m=[32m"text-xl font-bold text-gray-900"[31m
+        [36m>[31m
+          [0mDevBrief AI[0m
+        [36m</h1>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Sign in with Google"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+        [36m>[31m
+          [0mSign in with Google[0m
+        [36m</button>[31m
+      [36m</header>[31m
+      [36m<main[31m
+        [33maria-label[31m=[32m"Main content"[31m
+        [33mclass[31m=[32m"max-w-6xl mx-auto px-6 py-16 text-center"[31m
+      [36m>[31m
+        [36m<h2[31m
+          [33mclass[31m=[32m"text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6"[31m
+        [36m>[31m
+          [0mUnderstand Any Codebase in Seconds[0m
+        [36m</h2>[31m
+        [36m<p[31m
+          [33mclass[31m=[32m"text-xl text-gray-600 mb-10 max-w-2xl mx-auto"[31m
+        [36m>[31m
+          [0mPaste a GitHub URL or raw code snippet, and let Gemini 2.0 Flash instantly explain architecture, generate PR summaries, and flag vulnerabilities.[0m
+        [36m</p>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex justify-center mb-16"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33maria-disabled[31m=[32m"false"[31m
+            [33maria-label[31m=[32m"Sign in with Google"[31m
+            [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [36m>[31m
+            [0mSign in with Google[0m
+          [36m</button>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"grid md:grid-cols-3 gap-8"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mInstant Explanations[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mDemystify complex legacy systems or unfamiliar open-source projects with precise, context-aware breakdowns.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mAutomated PR Summaries[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mGenerate structured summaries detailing changes, risk levels, and suggested reviewers in a single click.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mSecurity & Performance[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mAutomatically flag security vulnerabilities, anti-patterns, and performance bottlenecks before they hit production.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</main>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mhandles successful login and redirects[39m
+[31m     → Found multiple elements with the role "button" and name `/Sign in with Google/i`
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<button[31m
+  [33maria-disabled[31m=[32m"false"[31m
+  [33maria-label[31m=[32m"Sign in with Google"[31m
+  [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+[36m>[31m
+  [0mSign in with Google[0m
+[36m</button>[31m
+
+Ignored nodes: comments, script, style
+[36m<button[31m
+  [33maria-disabled[31m=[32m"false"[31m
+  [33maria-label[31m=[32m"Sign in with Google"[31m
+  [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+[36m>[31m
+  [0mSign in with Google[0m
+[36m</button>[31m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gray-50"[31m
+    [36m>[31m
+      [36m<header[31m
+        [33mclass[31m=[32m"px-6 py-4 border-b border-gray-200 bg-white flex justify-between items-center"[31m
+      [36m>[31m
+        [36m<h1[31m
+          [33mclass[31m=[32m"text-xl font-bold text-gray-900"[31m
+        [36m>[31m
+          [0mDevBrief AI[0m
+        [36m</h1>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Sign in with Google"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+        [36m>[31m
+          [0mSign in with Google[0m
+        [36m</button>[31m
+      [36m</header>[31m
+      [36m<main[31m
+        [33maria-label[31m=[32m"Main content"[31m
+        [33mclass[31m=[32m"max-w-6xl mx-auto px-6 py-16 text-center"[31m
+      [36m>[31m
+        [36m<h2[31m
+          [33mclass[31m=[32m"text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6"[31m
+        [36m>[31m
+          [0mUnderstand Any Codebase in Seconds[0m
+        [36m</h2>[31m
+        [36m<p[31m
+          [33mclass[31m=[32m"text-xl text-gray-600 mb-10 max-w-2xl mx-auto"[31m
+        [36m>[31m
+          [0mPaste a GitHub URL or raw code snippet, and let Gemini 2.0 Flash instantly explain architecture, generate PR summaries, and flag vulnerabilities.[0m
+        [36m</p>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex justify-center mb-16"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33maria-disabled[31m=[32m"false"[31m
+            [33maria-label[31m=[32m"Sign in with Google"[31m
+            [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [36m>[31m
+            [0mSign in with Google[0m
+          [36m</button>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"grid md:grid-cols-3 gap-8"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mInstant Explanations[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mDemystify complex legacy systems or unfamiliar open-source projects with precise, context-aware breakdowns.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mAutomated PR Summaries[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mGenerate structured summaries detailing changes, risk levels, and suggested reviewers in a single click.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mSecurity & Performance[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mAutomatically flag security vulnerabilities, anti-patterns, and performance bottlenecks before they hit production.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</main>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mhandles login error[39m
+[31m     → Found multiple elements with the role "button" and name `/Sign in with Google/i`
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<button[31m
+  [33maria-disabled[31m=[32m"false"[31m
+  [33maria-label[31m=[32m"Sign in with Google"[31m
+  [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+[36m>[31m
+  [0mSign in with Google[0m
+[36m</button>[31m
+
+Ignored nodes: comments, script, style
+[36m<button[31m
+  [33maria-disabled[31m=[32m"false"[31m
+  [33maria-label[31m=[32m"Sign in with Google"[31m
+  [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+[36m>[31m
+  [0mSign in with Google[0m
+[36m</button>[31m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gray-50"[31m
+    [36m>[31m
+      [36m<header[31m
+        [33mclass[31m=[32m"px-6 py-4 border-b border-gray-200 bg-white flex justify-between items-center"[31m
+      [36m>[31m
+        [36m<h1[31m
+          [33mclass[31m=[32m"text-xl font-bold text-gray-900"[31m
+        [36m>[31m
+          [0mDevBrief AI[0m
+        [36m</h1>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Sign in with Google"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+        [36m>[31m
+          [0mSign in with Google[0m
+        [36m</button>[31m
+      [36m</header>[31m
+      [36m<main[31m
+        [33maria-label[31m=[32m"Main content"[31m
+        [33mclass[31m=[32m"max-w-6xl mx-auto px-6 py-16 text-center"[31m
+      [36m>[31m
+        [36m<h2[31m
+          [33mclass[31m=[32m"text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6"[31m
+        [36m>[31m
+          [0mUnderstand Any Codebase in Seconds[0m
+        [36m</h2>[31m
+        [36m<p[31m
+          [33mclass[31m=[32m"text-xl text-gray-600 mb-10 max-w-2xl mx-auto"[31m
+        [36m>[31m
+          [0mPaste a GitHub URL or raw code snippet, and let Gemini 2.0 Flash instantly explain architecture, generate PR summaries, and flag vulnerabilities.[0m
+        [36m</p>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex justify-center mb-16"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33maria-disabled[31m=[32m"false"[31m
+            [33maria-label[31m=[32m"Sign in with Google"[31m
+            [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [36m>[31m
+            [0mSign in with Google[0m
+          [36m</button>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"grid md:grid-cols-3 gap-8"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mInstant Explanations[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mDemystify complex legacy systems or unfamiliar open-source projects with precise, context-aware breakdowns.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mAutomated PR Summaries[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mGenerate structured summaries detailing changes, risk levels, and suggested reviewers in a single click.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mSecurity & Performance[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mAutomatically flag security vulnerabilities, anti-patterns, and performance bottlenecks before they hit production.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</main>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+ [32m✓[39m src/tests/unit/components/features/SessionSidebar.test.tsx [2m ([22m[2m5 tests[22m[2m)[22m[33m 1505[2mms[22m[39m
+ [32m✓[39m src/tests/unit/components/features/QuestionBar.test.tsx [2m ([22m[2m4 tests[22m[2m)[22m[33m 1677[2mms[22m[39m
+ [32m✓[39m src/tests/unit/components/ui/Modal.test.tsx [2m ([22m[2m4 tests[22m[2m)[22m[33m 351[2mms[22m[39m
+ [32m✓[39m src/tests/unit/pages/AppPage.test.tsx [2m ([22m[2m2 tests[22m[2m)[22m[90m 123[2mms[22m[39m
+ [32m✓[39m src/tests/security/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 17[2mms[22m[39m
+ [32m✓[39m src/tests/accessibility/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 11[2mms[22m[39m
+ [32m✓[39m src/tests/edge-cases/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 23[2mms[22m[39m
+ [32m✓[39m src/tests/unit/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 2[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[1m[7m Failed Tests 3 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mrenders hero content
+[31m[1mTestingLibraryElementError[22m: Unable to find an element with the text: /Master Any Codebase/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gray-50"[31m
+    [36m>[31m
+      [36m<header[31m
+        [33mclass[31m=[32m"px-6 py-4 border-b border-gray-200 bg-white flex justify-between items-center"[31m
+      [36m>[31m
+        [36m<h1[31m
+          [33mclass[31m=[32m"text-xl font-bold text-gray-900"[31m
+        [36m>[31m
+          [0mDevBrief AI[0m
+        [36m</h1>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Sign in with Google"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+        [36m>[31m
+          [0mSign in with Google[0m
+        [36m</button>[31m
+      [36m</header>[31m
+      [36m<main[31m
+        [33maria-label[31m=[32m"Main content"[31m
+        [33mclass[31m=[32m"max-w-6xl mx-auto px-6 py-16 text-center"[31m
+      [36m>[31m
+        [36m<h2[31m
+          [33mclass[31m=[32m"text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6"[31m
+        [36m>[31m
+          [0mUnderstand Any Codebase in Seconds[0m
+        [36m</h2>[31m
+        [36m<p[31m
+          [33mclass[31m=[32m"text-xl text-gray-600 mb-10 max-w-2xl mx-auto"[31m
+        [36m>[31m
+          [0mPaste a GitHub URL or raw code snippet, and let Gemini 2.0 Flash instantly explain architecture, generate PR summaries, and flag vulnerabilities.[0m
+        [36m</p>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex justify-center mb-16"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33maria-disabled[31m=[32m"false"[31m
+            [33maria-label[31m=[32m"Sign in with Google"[31m
+            [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [36m>[31m
+            [0mSign in with Google[0m
+          [36m</button>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"grid md:grid-cols-3 gap-8"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mInstant Explanations[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mDemystify complex legacy systems or unfamiliar open-source projects with precise, context-aware breakdowns.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mAutomated PR Summaries[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mGenerate structured summaries detailing changes, risk levels, and suggested reviewers in a single click.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[31m
+          [36m>[31m
+            [36m<h3[31m
+              [33mclass[31m=[32m"text-lg font-bold text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mSecurity & Performance[0m
+            [36m</h3>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mAutomatically flag security vulnerabilities, anti-patterns, and performance bottlenecks before they hit production.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</main>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/pages/LandingPage.test.tsx:[2m30:19[22m[39m
+    [90m 28| [39m    [34mrender[39m([33m<[39m[33mLandingPage[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m 29| [39m    [34mexpect[39m(screen[33m.[39m[34mgetByText[39m([36m/DevBrief AI/i[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m 30| [39m    [34mexpect[39m(screen[33m.[39m[34mgetByText[39m([36m/Master Any Codebase/i[39m))[33m.[39m[34mtoBeInTheDocument[39m…
+    [90m   | [39m                  [31m^[39m
+    [90m 31| [39m  })[33m;[39m
+    [90m 32| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mhandles successful login and redirects
+[31m[1mTestingLibraryElementError[22m[39m: Found multiple elements with the role "button" and name `/Sign in with Google/i`
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33maria-disabled[39m=[32m"false"[39m
+  [33maria-label[39m=[32m"Sign in with Google"[39m
+  [33mclass[39m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[39m
+[36m>[39m
+  [0mSign in with Google[0m
+[36m</button>[39m
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33maria-disabled[39m=[32m"false"[39m
+  [33maria-label[39m=[32m"Sign in with Google"[39m
+  [33mclass[39m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[39m
+[36m>[39m
+  [0mSign in with Google[0m
+[36m</button>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"px-6 py-4 border-b border-gray-200 bg-white flex justify-between items-center"[39m
+      [36m>[39m
+        [36m<h1[39m
+          [33mclass[39m=[32m"text-xl font-bold text-gray-900"[39m
+        [36m>[39m
+          [0mDevBrief AI[0m
+        [36m</h1>[39m
+        [36m<button[39m
+          [33maria-disabled[39m=[32m"false"[39m
+          [33maria-label[39m=[32m"Sign in with Google"[39m
+          [33mclass[39m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[39m
+        [36m>[39m
+          [0mSign in with Google[0m
+        [36m</button>[39m
+      [36m</header>[39m
+      [36m<main[39m
+        [33maria-label[39m=[32m"Main content"[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-6 py-16 text-center"[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6"[39m
+        [36m>[39m
+          [0mUnderstand Any Codebase in Seconds[0m
+        [36m</h2>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-xl text-gray-600 mb-10 max-w-2xl mx-auto"[39m
+        [36m>[39m
+          [0mPaste a GitHub URL or raw code snippet, and let Gemini 2.0 Flash instantly explain architecture, generate PR summaries, and flag vulnerabilities.[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex justify-center mb-16"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33maria-disabled[39m=[32m"false"[39m
+            [33maria-label[39m=[32m"Sign in with Google"[39m
+            [33mclass[39m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[39m
+          [36m>[39m
+            [0mSign in with Google[0m
+          [36m</button>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid md:grid-cols-3 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[39m
+          [36m>[39m
+            [36m<h3[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-900 mb-2"[39m
+            [36m>[39m
+              [0mInstant Explanations[0m
+            [36m</h3>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-gray-600"[39m
+            [36m>[39m
+              [0mDemystify complex legacy systems or unfamiliar open-source projects with precise, context-aware breakdowns.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[39m
+          [36m>[39m
+            [36m<h3[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-900 mb-2"[39m
+            [36m>[39m
+              [0mAutomated PR Summaries[0m
+            [36m</h3>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-gray-600"[39m
+            [36m>[39m
+              [0mGenerate structured summaries detailing changes, risk levels, and suggested reviewers in a single click.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[39m
+          [36m>[39m
+            [36m<h3[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-900 mb-2"[39m
+            [36m>[39m
+              [0mSecurity & Performance[0m
+            [36m</h3>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-gray-600"[39m
+            [36m>[39m
+              [0mAutomatically flag security vulnerabilities, anti-patterns, and performance bottlenecks before they hit production.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</main>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m getElementError node_modules/@testing-library/dom/dist/query-helpers.js:[2m20:35[22m[39m
+[90m [2m❯[22m getMultipleElementsFoundError node_modules/@testing-library/dom/dist/query-helpers.js:[2m23:10[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m55:13[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/pages/LandingPage.test.tsx:[2m37:30[22m[39m
+    [90m 35| [39m    [34mrender[39m([33m<[39m[33mLandingPage[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m 36| [39m    
+    [90m 37| [39m    [35mconst[39m signInBtn [33m=[39m screen[33m.[39m[34mgetByRole[39m([32m'button'[39m[33m,[39m { name[33m:[39m [36m/Sign in with[39m…
+    [90m   | [39m                             [31m^[39m
+    [90m 38| [39m    fireEvent[33m.[39m[34mclick[39m(signInBtn)[33m;[39m
+    [90m 39| [39m    
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mhandles login error
+[31m[1mTestingLibraryElementError[22m[39m: Found multiple elements with the role "button" and name `/Sign in with Google/i`
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33maria-disabled[39m=[32m"false"[39m
+  [33maria-label[39m=[32m"Sign in with Google"[39m
+  [33mclass[39m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[39m
+[36m>[39m
+  [0mSign in with Google[0m
+[36m</button>[39m
+
+Ignored nodes: comments, script, style
+[36m<button[39m
+  [33maria-disabled[39m=[32m"false"[39m
+  [33maria-label[39m=[32m"Sign in with Google"[39m
+  [33mclass[39m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[39m
+[36m>[39m
+  [0mSign in with Google[0m
+[36m</button>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"px-6 py-4 border-b border-gray-200 bg-white flex justify-between items-center"[39m
+      [36m>[39m
+        [36m<h1[39m
+          [33mclass[39m=[32m"text-xl font-bold text-gray-900"[39m
+        [36m>[39m
+          [0mDevBrief AI[0m
+        [36m</h1>[39m
+        [36m<button[39m
+          [33maria-disabled[39m=[32m"false"[39m
+          [33maria-label[39m=[32m"Sign in with Google"[39m
+          [33mclass[39m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[39m
+        [36m>[39m
+          [0mSign in with Google[0m
+        [36m</button>[39m
+      [36m</header>[39m
+      [36m<main[39m
+        [33maria-label[39m=[32m"Main content"[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-6 py-16 text-center"[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6"[39m
+        [36m>[39m
+          [0mUnderstand Any Codebase in Seconds[0m
+        [36m</h2>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-xl text-gray-600 mb-10 max-w-2xl mx-auto"[39m
+        [36m>[39m
+          [0mPaste a GitHub URL or raw code snippet, and let Gemini 2.0 Flash instantly explain architecture, generate PR summaries, and flag vulnerabilities.[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex justify-center mb-16"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33maria-disabled[39m=[32m"false"[39m
+            [33maria-label[39m=[32m"Sign in with Google"[39m
+            [33mclass[39m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[39m
+          [36m>[39m
+            [0mSign in with Google[0m
+          [36m</button>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid md:grid-cols-3 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[39m
+          [36m>[39m
+            [36m<h3[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-900 mb-2"[39m
+            [36m>[39m
+              [0mInstant Explanations[0m
+            [36m</h3>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-gray-600"[39m
+            [36m>[39m
+              [0mDemystify complex legacy systems or unfamiliar open-source projects with precise, context-aware breakdowns.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[39m
+          [36m>[39m
+            [36m<h3[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-900 mb-2"[39m
+            [36m>[39m
+              [0mAutomated PR Summaries[0m
+            [36m</h3>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-gray-600"[39m
+            [36m>[39m
+              [0mGenerate structured summaries detailing changes, risk levels, and suggested reviewers in a single click.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"p-6 bg-white rounded-xl shadow-sm border border-gray-100 text-left"[39m
+          [36m>[39m
+            [36m<h3[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-900 mb-2"[39m
+            [36m>[39m
+              [0mSecurity & Performance[0m
+            [36m</h3>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-gray-600"[39m
+            [36m>[39m
+              [0mAutomatically flag security vulnerabilities, anti-patterns, and performance bottlenecks before they hit production.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</main>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m getElementError node_modules/@testing-library/dom/dist/query-helpers.js:[2m20:35[22m[39m
+[90m [2m❯[22m getMultipleElementsFoundError node_modules/@testing-library/dom/dist/query-helpers.js:[2m23:10[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m55:13[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/pages/LandingPage.test.tsx:[2m51:30[22m[39m
+    [90m 49| [39m    [34mrender[39m([33m<[39m[33mLandingPage[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m 50| [39m    
+    [90m 51| [39m    [35mconst[39m signInBtn [33m=[39m screen[33m.[39m[34mgetByRole[39m([32m'button'[39m[33m,[39m { name[33m:[39m [36m/Sign in with[39m…
+    [90m   | [39m                             [31m^[39m
+    [90m 52| [39m    fireEvent[33m.[39m[34mclick[39m(signInBtn)[33m;[39m
+    [90m 53| [39m    
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯[22m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m20 passed[39m[22m[90m (21)[39m
+[2m      Tests [22m [1m[31m3 failed[39m[22m[2m | [22m[1m[32m126 passed[39m[22m[90m (129)[39m
+[2m   Start at [22m 01:31:56
+[2m   Duration [22m 25.68s[2m (transform 12.61s, setup 36.03s, collect 47.67s, tests 10.68s, environment 202.83s, prepare 17.50s)[22m
+

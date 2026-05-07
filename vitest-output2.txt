@@ -1,0 +1,1418 @@
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mE:/DevBrief AI[39m
+
+ [32m✓[39m src/tests/integration/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 2[2mms[22m[39m
+ [32m✓[39m src/tests/security/config.test.ts [2m ([22m[2m10 tests[22m[2m)[22m[90m 103[2mms[22m[39m
+ [32m✓[39m src/tests/SUITE_TEMPLATES.test.ts [2m ([22m[2m53 tests[22m[2m)[22m[90m 219[2mms[22m[39m
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+[90mstderr[2m | src/tests/unit/services/authService.test.ts[2m > [22m[2mAuthService[2m > [22m[2msignInWithGoogle handles errors[22m[39m
+[AuthService] Google Sign-In Failed: Error: Auth failed
+    at [90mE:\DevBrief AI\[39msrc\tests\unit\services\authService.test.ts:18:52
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:135:14
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:60:26
+    at runTest [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:781:17[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runFiles [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:958:5[90m)[39m
+    at startTests [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:967:3[90m)[39m
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:116:7
+    at withEnv [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:83:5[90m)[39m
+
+ [32m✓[39m src/tests/unit/services/authService.test.ts [2m ([22m[2m4 tests[22m[2m)[22m[90m 20[2mms[22m[39m
+ [32m✓[39m src/tests/unit/services/analyticsService.test.ts [2m ([22m[2m5 tests[22m[2m)[22m[90m 20[2mms[22m[39m
+[90mstderr[2m | src/tests/unit/services/geminiService.test.ts[2m > [22m[2mGeminiService[2m > [22m[2mstreamCodeAnalysis handles error in stream[22m[39m
+[GeminiService] Streaming Error: Error: API Error
+    at [90mE:\DevBrief AI\[39msrc\tests\unit\services\geminiService.test.ts:52:49
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:135:14
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:60:26
+    at runTest [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:781:17[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runFiles [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:958:5[90m)[39m
+    at startTests [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:967:3[90m)[39m
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:116:7
+    at withEnv [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:83:5[90m)[39m
+
+[90mstderr[2m | src/tests/unit/services/geminiService.test.ts[2m > [22m[2mGeminiService[2m > [22m[2mstreamCodeAnalysis truncates long context[22m[39m
+[GeminiService] Context truncated from 35000 to 30000 characters.
+
+ [32m✓[39m src/tests/unit/services/geminiService.test.ts [2m ([22m[2m3 tests[22m[2m)[22m[90m 147[2mms[22m[39m
+ [32m✓[39m src/tests/unit/services/sessionService.test.ts [2m ([22m[2m4 tests[22m[2m)[22m[90m 117[2mms[22m[39m
+ [32m✓[39m src/tests/unit/utils.test.ts [2m ([22m[2m10 tests[22m[2m)[22m[33m 752[2mms[22m[39m
+ [32m✓[39m src/tests/unit/components/ui/StreamingText.test.tsx [2m ([22m[2m4 tests[22m[2m)[22m[33m 583[2mms[22m[39m
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+ [33m❯[39m src/tests/unit/components/features/QuestionBar.test.tsx [2m ([22m[2m4 tests[22m [2m|[22m [31m4 failed[39m[2m)[22m[33m 855[2mms[22m[39m
+[31m   [33m❯[31m src/tests/unit/components/features/QuestionBar.test.tsx[2m > [22mQuestionBar Component[2m > [22mrenders templates and input[39m
+[31m     → Unable to find an element with the placeholder text of: /Ask Gemini anything about this code/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col gap-4 w-full"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Quick prompt templates"[31m
+        [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+        [33mrole[31m=[32m"group"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Explain this"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mExplain this[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Summarise as PR"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mSummarise as PR[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Flag issues"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mFlag issues[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<form[31m
+        [33mclass[31m=[32m"flex gap-2 w-full"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"question-input"[31m
+        [36m>[31m
+          [0mAsk a question about the code[0m
+        [36m</label>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[31m
+          [33mid[31m=[32m"question-input"[31m
+          [33mplaceholder[31m=[32m"Ask a question about the codebase..."[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Submit question"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mtype[31m=[32m"submit"[31m
+        [36m>[31m
+          [0mSend[0m
+        [36m</button>[31m
+      [36m</form>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/tests/unit/components/features/QuestionBar.test.tsx[2m > [22mQuestionBar Component[2m > [22msubmits typed question[39m
+[31m     → Unable to find an element with the placeholder text of: /Ask Gemini anything about this code/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col gap-4 w-full"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Quick prompt templates"[31m
+        [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+        [33mrole[31m=[32m"group"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Explain this"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mExplain this[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Summarise as PR"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mSummarise as PR[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Flag issues"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mFlag issues[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<form[31m
+        [33mclass[31m=[32m"flex gap-2 w-full"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"question-input"[31m
+        [36m>[31m
+          [0mAsk a question about the code[0m
+        [36m</label>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[31m
+          [33mid[31m=[32m"question-input"[31m
+          [33mplaceholder[31m=[32m"Ask a question about the codebase..."[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Submit question"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mtype[31m=[32m"submit"[31m
+        [36m>[31m
+          [0mSend[0m
+        [36m</button>[31m
+      [36m</form>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/tests/unit/components/features/QuestionBar.test.tsx[2m > [22mQuestionBar Component[2m > [22msubmits template question when clicked[39m
+[31m     → Unable to find an element with the text: Explain this code. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col gap-4 w-full"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Quick prompt templates"[31m
+        [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+        [33mrole[31m=[32m"group"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Explain this"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mExplain this[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Summarise as PR"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mSummarise as PR[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Flag issues"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mFlag issues[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<form[31m
+        [33mclass[31m=[32m"flex gap-2 w-full"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"question-input"[31m
+        [36m>[31m
+          [0mAsk a question about the code[0m
+        [36m</label>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[31m
+          [33mid[31m=[32m"question-input"[31m
+          [33mplaceholder[31m=[32m"Ask a question about the codebase..."[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Submit question"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mtype[31m=[32m"submit"[31m
+        [36m>[31m
+          [0mSend[0m
+        [36m</button>[31m
+      [36m</form>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/tests/unit/components/features/QuestionBar.test.tsx[2m > [22mQuestionBar Component[2m > [22mis disabled when disabled prop is true[39m
+[31m     → Unable to find an element with the placeholder text of: /Ask Gemini anything about this code/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col gap-4 w-full"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Quick prompt templates"[31m
+        [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+        [33mrole[31m=[32m"group"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Use template: Explain this"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+          [33mdisabled[31m=[32m""[31m
+        [36m>[31m
+          [0mExplain this[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Use template: Summarise as PR"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+          [33mdisabled[31m=[32m""[31m
+        [36m>[31m
+          [0mSummarise as PR[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Use template: Flag issues"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+          [33mdisabled[31m=[32m""[31m
+        [36m>[31m
+          [0mFlag issues[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<form[31m
+        [33mclass[31m=[32m"flex gap-2 w-full"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"question-input"[31m
+        [36m>[31m
+          [0mAsk a question about the code[0m
+        [36m</label>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mid[31m=[32m"question-input"[31m
+          [33mplaceholder[31m=[32m"Ask a question about the codebase..."[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Submit question"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mtype[31m=[32m"submit"[31m
+        [36m>[31m
+          [0mSend[0m
+        [36m</button>[31m
+      [36m</form>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+ [32m✓[39m src/tests/unit/components/ui/Modal.test.tsx [2m ([22m[2m4 tests[22m[2m)[22m[33m 727[2mms[22m[39m
+ [32m✓[39m src/tests/unit/components/ui/Button.test.tsx [2m ([22m[2m5 tests[22m[2m)[22m[33m 1157[2mms[22m[39m
+ [32m✓[39m src/tests/unit/components/ui/Input.test.tsx [2m ([22m[2m4 tests[22m[2m)[22m[33m 1241[2mms[22m[39m
+[90mstderr[2m | src/tests/unit/pages/LandingPage.test.tsx[2m > [22m[2mLandingPage[2m > [22m[2mrenders hero content[22m[39m
+Error: Uncaught [TypeError: __vite_ssr_import_3__.authService.onAuthStateChange is not a function]
+    at reportException (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (E:\DevBrief AI\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (E:\DevBrief AI\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at reportUncaughtErrorInDEV (E:\DevBrief AI\node_modules\react-dom\cjs\react-dom.development.js:22877:5)
+    at captureCommitPhaseError (E:\DevBrief AI\node_modules\react-dom\cjs\react-dom.development.js:27165:5) TypeError: __vite_ssr_import_3__.authService.onAuthStateChange is not a function
+    at [90mE:\DevBrief AI\[39msrc\pages\LandingPage.tsx:13:37
+    at commitHookEffectListMount [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:23189:26[90m)[39m
+    at commitPassiveMountOnFiber [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:24970:11[90m)[39m
+    at commitPassiveMountEffects_complete [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:24930:9[90m)[39m
+    at commitPassiveMountEffects_begin [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:24917:7[90m)[39m
+    at commitPassiveMountEffects [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:24905:3[90m)[39m
+    at flushPassiveEffectsImpl [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:27078:3[90m)[39m
+    at flushPassiveEffects [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:27023:14[90m)[39m
+    at [90mE:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:26808:9
+    at flushActQueue [90m(E:\DevBrief AI\[39mnode_modules\[4mreact[24m\cjs\react.development.js:2667:24[90m)[39m
+The above error occurred in the <LandingPage> component:
+
+    at LandingPage (E:\DevBrief AI\src\pages\LandingPage.tsx:14:49)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+[90mstderr[2m | src/tests/unit/pages/LandingPage.test.tsx[2m > [22m[2mLandingPage[2m > [22m[2mhandles successful login and redirects[22m[39m
+Error: Uncaught [TypeError: __vite_ssr_import_3__.authService.onAuthStateChange is not a function]
+    at reportException (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (E:\DevBrief AI\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (E:\DevBrief AI\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (E:\DevBrief AI\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at reportUncaughtErrorInDEV (E:\DevBrief AI\node_modules\react-dom\cjs\react-dom.development.js:22877:5)
+    at captureCommitPhaseError (E:\DevBrief AI\node_modules\react-dom\cjs\react-dom.development.js:27165:5) TypeError: __vite_ssr_import_3__.authService.onAuthStateChange is not a function
+    at [90mE:\DevBrief AI\[39msrc\pages\LandingPage.tsx:13:37
+    at commitHookEffectListMount [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:23189:26[90m)[39m
+    at commitPassiveMountOnFiber [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:24970:11[90m)[39m
+    at commitPassiveMountEffects_complete [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:24930:9[90m)[39m
+    at commitPassiveMountEffects_begin [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:24917:7[90m)[39m
+    at commitPassiveMountEffects [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:24905:3[90m)[39m
+    at flushPassiveEffectsImpl [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:27078:3[90m)[39m
+    at flushPassiveEffects [90m(E:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:27023:14[90m)[39m
+    at [90mE:\DevBrief AI\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:26808:9
+    at flushActQueue [90m(E:\DevBrief AI\[39mnode_modules\[4mreact[24m\cjs\react.development.js:2667:24[90m)[39m
+The above error occurred in the <LandingPage> component:
+
+    at LandingPage (E:\DevBrief AI\src\pages\LandingPage.tsx:14:49)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+ [33m❯[39m src/tests/unit/pages/LandingPage.test.tsx [2m ([22m[2m3 tests[22m [2m|[22m [31m3 failed[39m[2m)[22m[33m 784[2mms[22m[39m
+[31m   [33m❯[31m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mrenders hero content[39m
+[31m     → authService.onAuthStateChange is not a function[39m
+[31m   [33m❯[31m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mhandles successful login and redirects[39m
+[31m     → authService.onAuthStateChange is not a function[39m
+[31m   [33m❯[31m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mhandles login error[39m
+[31m     → authService.onAuthStateChange is not a function[39m
+ [33m❯[39m src/tests/unit/components/features/SessionSidebar.test.tsx [2m ([22m[2m5 tests[22m [2m|[22m [31m2 failed[39m[2m)[22m[33m 2251[2mms[22m[39m
+[31m   [33m❯[31m src/tests/unit/components/features/SessionSidebar.test.tsx[2m > [22mSessionSidebar Component[2m > [22mrenders loading state[39m
+[31m     → Unable to find an accessible element with the role "status"
+
+Here are the accessible roles:
+
+  complementary:
+
+  Name "Session History":
+  [36m<aside[31m
+    [33maria-label[31m=[32m"Session History"[31m
+    [33mclass[31m=[32m"w-64 h-full flex flex-col bg-gray-50 border-r border-gray-200"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  button:
+
+  Name "Start new session":
+  [36m<button[31m
+    [33maria-disabled[31m=[32m"false"[31m
+    [33maria-label[31m=[32m"Start new session"[31m
+    [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 w-full justify-center"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<aside[31m
+      [33maria-label[31m=[32m"Session History"[31m
+      [33mclass[31m=[32m"w-64 h-full flex flex-col bg-gray-50 border-r border-gray-200"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"p-4 border-b border-gray-200"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Start new session"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 w-full justify-center"[31m
+        [36m>[31m
+          [0m+ New Analysis[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex-1 overflow-y-auto p-2"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33maria-live[31m=[32m"polite"[31m
+          [33mclass[31m=[32m"p-4 text-center text-sm text-gray-500"[31m
+        [36m>[31m
+          [0mLoading history...[0m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</aside>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/tests/unit/components/features/SessionSidebar.test.tsx[2m > [22mSessionSidebar Component[2m > [22mcalls onNewSession when new analysis is clicked[39m
+[31m     → Unable to find an element with the text: New Analysis. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<aside[31m
+      [33maria-label[31m=[32m"Session History"[31m
+      [33mclass[31m=[32m"w-64 h-full flex flex-col bg-gray-50 border-r border-gray-200"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"p-4 border-b border-gray-200"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Start new session"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 w-full justify-center"[31m
+        [36m>[31m
+          [0m+ New Analysis[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex-1 overflow-y-auto p-2"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"p-4 text-center text-sm text-gray-500"[31m
+        [36m>[31m
+          [0mNo past sessions[0m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</aside>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+ [33m❯[39m src/tests/unit/components/features/CodeInput.test.tsx [2m ([22m[2m4 tests[22m [2m|[22m [31m2 failed[39m[2m)[22m[33m 2133[2mms[22m[39m
+[31m   [33m❯[31m src/tests/unit/components/features/CodeInput.test.tsx[2m > [22mCodeInput Component[2m > [22mswitches tabs between Raw Code and GitHub URL[39m
+[31m     → Unable to find an accessible element with the role "button" and name `/GitHub URL/i`
+
+Here are the accessible roles:
+
+  tablist:
+
+  Name "Code input methods":
+  [36m<div[31m
+    [33maria-label[31m=[32m"Code input methods"[31m
+    [33mclass[31m=[32m"flex border-b border-gray-200"[31m
+    [33mrole[31m=[32m"tablist"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  tab:
+
+  Name "Raw Code":
+  [36m<button[31m
+    [33maria-controls[31m=[32m"raw-code-panel"[31m
+    [33maria-selected[31m=[32m"true"[31m
+    [33mclass[31m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-blue-500 text-blue-600"[31m
+    [33mrole[31m=[32m"tab"[31m
+  [36m/>[31m
+
+  Name "GitHub URL":
+  [36m<button[31m
+    [33maria-controls[31m=[32m"url-panel"[31m
+    [33maria-selected[31m=[32m"false"[31m
+    [33mclass[31m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-transparent text-gray-500 hover:text-gray-700"[31m
+    [33mrole[31m=[32m"tab"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  tabpanel:
+
+  Name "":
+  [36m<div[31m
+    [33mclass[31m=[32m"flex flex-col gap-1"[31m
+    [33mid[31m=[32m"raw-code-panel"[31m
+    [33mrole[31m=[32m"tabpanel"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "Paste raw code here":
+  [36m<textarea[31m
+    [33maria-describedby[31m=[32m"code-textarea-hint"[31m
+    [33mclass[31m=[32m"w-full h-48 p-3 text-sm font-mono border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500 resize-y"[31m
+    [33mid[31m=[32m"code-textarea"[31m
+    [33mplaceholder[31m=[32m"Paste your raw code here..."[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"w-full flex flex-col gap-2"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Code input methods"[31m
+        [33mclass[31m=[32m"flex border-b border-gray-200"[31m
+        [33mrole[31m=[32m"tablist"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-controls[31m=[32m"raw-code-panel"[31m
+          [33maria-selected[31m=[32m"true"[31m
+          [33mclass[31m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-blue-500 text-blue-600"[31m
+          [33mrole[31m=[32m"tab"[31m
+        [36m>[31m
+          [0mRaw Code[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-controls[31m=[32m"url-panel"[31m
+          [33maria-selected[31m=[32m"false"[31m
+          [33mclass[31m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-transparent text-gray-500 hover:text-gray-700"[31m
+          [33mrole[31m=[32m"tab"[31m
+        [36m>[31m
+          [0mGitHub URL[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex flex-col gap-1"[31m
+        [33mid[31m=[32m"raw-code-panel"[31m
+        [33mrole[31m=[32m"tabpanel"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"code-textarea"[31m
+        [36m>[31m
+          [0mPaste raw code here[0m
+        [36m</label>[31m
+        [36m<textarea[31m
+          [33maria-describedby[31m=[32m"code-textarea-hint"[31m
+          [33mclass[31m=[32m"w-full h-48 p-3 text-sm font-mono border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500 resize-y"[31m
+          [33mid[31m=[32m"code-textarea"[31m
+          [33mplaceholder[31m=[32m"Paste your raw code here..."[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex justify-between items-center text-xs text-gray-500"[31m
+        [36m>[31m
+          [36m<span[31m
+            [33mid[31m=[32m"code-textarea-hint"[31m
+          [36m>[31m
+            [0m0[0m
+            [0m / [0m
+            [0m30000[0m
+            [0m characters[0m
+          [36m</span>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex flex-col gap-2"[31m
+        [33mhidden[31m=[32m""[31m
+        [33mid[31m=[32m"url-panel"[31m
+        [33mrole[31m=[32m"tabpanel"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"text-sm font-medium text-gray-700"[31m
+          [33mfor[31m=[32m"github-url-input"[31m
+        [36m>[31m
+          [0mGitHub Repository or File URL[0m
+        [36m</label>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex gap-2"[31m
+        [36m>[31m
+          [36m<input[31m
+            [33mclass[31m=[32m"flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[31m
+            [33mid[31m=[32m"github-url-input"[31m
+            [33mplaceholder[31m=[32m"https://github.com/user/repo"[31m
+            [33mtype[31m=[32m"url"[31m
+            [33mvalue[31m=[32m""[31m
+          [36m/>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"px-4 py-2 bg-gray-200 text-gray-900 rounded-md hover:bg-gray-300 disabled:opacity-50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500"[31m
+            [33mdisabled[31m=[32m""[31m
+          [36m>[31m
+            [0mFetch[0m
+          [36m</button>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/tests/unit/components/features/CodeInput.test.tsx[2m > [22mCodeInput Component[2m > [22mshows truncation warning if code exceeds limit[39m
+[31m     → Unable to find an element with the text: /exceeds 30k characters/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"w-full flex flex-col gap-2"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Code input methods"[31m
+        [33mclass[31m=[32m"flex border-b border-gray-200"[31m
+        [33mrole[31m=[32m"tablist"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-controls[31m=[32m"raw-code-panel"[31m
+          [33maria-selected[31m=[32m"true"[31m
+          [33mclass[31m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-blue-500 text-blue-600"[31m
+          [33mrole[31m=[32m"tab"[31m
+        [36m>[31m
+          [0mRaw Code[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-controls[31m=[32m"url-panel"[31m
+          [33maria-selected[31m=[32m"false"[31m
+          [33mclass[31m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-transparent text-gray-500 hover:text-gray-700"[31m
+          [33mrole[31m=[32m"tab"[31m
+        [36m>[31m
+          [0mGitHub URL[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex flex-col gap-1"[31m
+        [33mid[31m=[32m"raw-code-panel"[31m
+        [33mrole[31m=[32m"tabpanel"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"code-textarea"[31m
+        [36m>[31m
+          [0mPaste raw code here[0m
+        [36m</label>[31m
+        [36m<textarea[31m
+          [33maria-describedby[31m=[32m"code-textarea-hint"[31m
+          [33mclass[31m=[32m"w-full h-48 p-3 text-sm font-mono border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500 resize-y"[31m
+          [33mid[31m=[32m"code-textarea"[31m
+          [33mplaceholder[31m=[32m"Paste your raw code here..."[31m
+        [36m>[31m
+          [0maaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...[39m
+ [32m✓[39m src/tests/unit/pages/AppPage.test.tsx [2m ([22m[2m2 tests[22m[2m)[22m[33m 1014[2mms[22m[39m
+ [32m✓[39m src/tests/security/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 2[2mms[22m[39m
+ [32m✓[39m src/tests/edge-cases/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 2[2mms[22m[39m
+ [32m✓[39m src/tests/accessibility/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 2[2mms[22m[39m
+ [32m✓[39m src/tests/unit/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 3[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯[1m[7m Failed Tests 11 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mrenders hero content
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mhandles successful login and redirects
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/pages/LandingPage.test.tsx[2m > [22mLandingPage[2m > [22mhandles login error
+[31m[1mTypeError[22m: authService.onAuthStateChange is not a function[39m
+[36m [2m❯[22m src/pages/LandingPage.tsx:[2m13:37[22m[39m
+    [90m 11| [39m  [34museEffect[39m(() [33m=>[39m {
+    [90m 12| [39m    analyticsService[33m.[39m[34mtrackPageView[39m([32m'/'[39m)[33m;[39m
+    [90m 13| [39m    [35mconst[39m unsubscribe [33m=[39m authService[33m.[39m[34monAuthStateChange[39m(setUser)[33m;[39m
+    [90m   | [39m                                    [31m^[39m
+    [90m 14| [39m    [35mreturn[39m () [33m=>[39m [34munsubscribe[39m()[33m;[39m
+    [90m 15| [39m  }[33m,[39m [])[33m;[39m
+[90m [2m❯[22m commitHookEffectListMount node_modules/react-dom/cjs/react-dom.development.js:[2m23189:26[22m[39m
+[90m [2m❯[22m commitPassiveMountOnFiber node_modules/react-dom/cjs/react-dom.development.js:[2m24970:11[22m[39m
+[90m [2m❯[22m commitPassiveMountEffects_complete node_modules/react-dom/cjs/react-dom.development.js:[2m24930:9[22m[39m
+[90m [2m❯[22m commitPassiveMountEffects_begin node_modules/react-dom/cjs/react-dom.development.js:[2m24917:7[22m[39m
+[90m [2m❯[22m commitPassiveMountEffects node_modules/react-dom/cjs/react-dom.development.js:[2m24905:3[22m[39m
+[90m [2m❯[22m flushPassiveEffectsImpl node_modules/react-dom/cjs/react-dom.development.js:[2m27078:3[22m[39m
+[90m [2m❯[22m flushPassiveEffects node_modules/react-dom/cjs/react-dom.development.js:[2m27023:14[22m[39m
+[90m [2m❯[22m node_modules/react-dom/cjs/react-dom.development.js:[2m26808:9[22m[39m
+[90m [2m❯[22m flushActQueue node_modules/react/cjs/react.development.js:[2m2667:24[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/11]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/CodeInput.test.tsx[2m > [22mCodeInput Component[2m > [22mswitches tabs between Raw Code and GitHub URL
+[31m[1mTestingLibraryElementError[22m[39m: Unable to find an accessible element with the role "button" and name `/GitHub URL/i`
+
+Here are the accessible roles:
+
+  tablist:
+
+  Name "Code input methods":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Code input methods"[39m
+    [33mclass[39m=[32m"flex border-b border-gray-200"[39m
+    [33mrole[39m=[32m"tablist"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  tab:
+
+  Name "Raw Code":
+  [36m<button[39m
+    [33maria-controls[39m=[32m"raw-code-panel"[39m
+    [33maria-selected[39m=[32m"true"[39m
+    [33mclass[39m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-blue-500 text-blue-600"[39m
+    [33mrole[39m=[32m"tab"[39m
+  [36m/>[39m
+
+  Name "GitHub URL":
+  [36m<button[39m
+    [33maria-controls[39m=[32m"url-panel"[39m
+    [33maria-selected[39m=[32m"false"[39m
+    [33mclass[39m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-transparent text-gray-500 hover:text-gray-700"[39m
+    [33mrole[39m=[32m"tab"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  tabpanel:
+
+  Name "":
+  [36m<div[39m
+    [33mclass[39m=[32m"flex flex-col gap-1"[39m
+    [33mid[39m=[32m"raw-code-panel"[39m
+    [33mrole[39m=[32m"tabpanel"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "Paste raw code here":
+  [36m<textarea[39m
+    [33maria-describedby[39m=[32m"code-textarea-hint"[39m
+    [33mclass[39m=[32m"w-full h-48 p-3 text-sm font-mono border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500 resize-y"[39m
+    [33mid[39m=[32m"code-textarea"[39m
+    [33mplaceholder[39m=[32m"Paste your raw code here..."[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"w-full flex flex-col gap-2"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33maria-label[39m=[32m"Code input methods"[39m
+        [33mclass[39m=[32m"flex border-b border-gray-200"[39m
+        [33mrole[39m=[32m"tablist"[39m
+      [36m>[39m
+        [36m<button[39m
+          [33maria-controls[39m=[32m"raw-code-panel"[39m
+          [33maria-selected[39m=[32m"true"[39m
+          [33mclass[39m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-blue-500 text-blue-600"[39m
+          [33mrole[39m=[32m"tab"[39m
+        [36m>[39m
+          [0mRaw Code[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33maria-controls[39m=[32m"url-panel"[39m
+          [33maria-selected[39m=[32m"false"[39m
+          [33mclass[39m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-transparent text-gray-500 hover:text-gray-700"[39m
+          [33mrole[39m=[32m"tab"[39m
+        [36m>[39m
+          [0mGitHub URL[0m
+        [36m</button>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex flex-col gap-1"[39m
+        [33mid[39m=[32m"raw-code-panel"[39m
+        [33mrole[39m=[32m"tabpanel"[39m
+      [36m>[39m
+        [36m<label[39m
+          [33mclass[39m=[32m"sr-only"[39m
+          [33mfor[39m=[32m"code-textarea"[39m
+        [36m>[39m
+          [0mPaste raw code here[0m
+        [36m</label>[39m
+        [36m<textarea[39m
+          [33maria-describedby[39m=[32m"code-textarea-hint"[39m
+          [33mclass[39m=[32m"w-full h-48 p-3 text-sm font-mono border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500 resize-y"[39m
+          [33mid[39m=[32m"code-textarea"[39m
+          [33mplaceholder[39m=[32m"Paste your raw code here..."[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex justify-between items-center text-xs text-gray-500"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mid[39m=[32m"code-textarea-hint"[39m
+          [36m>[39m
+            [0m0[0m
+            [0m / [0m
+            [0m30000[0m
+            [0m characters[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex flex-col gap-2"[39m
+        [33mhidden[39m=[32m""[39m
+        [33mid[39m=[32m"url-panel"[39m
+        [33mrole[39m=[32m"tabpanel"[39m
+      [36m>[39m
+        [36m<label[39m
+          [33mclass[39m=[32m"text-sm font-medium text-gray-700"[39m
+          [33mfor[39m=[32m"github-url-input"[39m
+        [36m>[39m
+          [0mGitHub Repository or File URL[0m
+        [36m</label>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex gap-2"[39m
+        [36m>[39m
+          [36m<input[39m
+            [33mclass[39m=[32m"flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[39m
+            [33mid[39m=[32m"github-url-input"[39m
+            [33mplaceholder[39m=[32m"https://github.com/user/repo"[39m
+            [33mtype[39m=[32m"url"[39m
+            [33mvalue[39m=[32m""[39m
+          [36m/>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"px-4 py-2 bg-gray-200 text-gray-900 rounded-md hover:bg-gray-300 disabled:opacity-50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500"[39m
+            [33mdisabled[39m=[32m""[39m
+          [36m>[39m
+            [0mFetch[0m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/components/features/CodeInput.test.tsx:[2m15:30[22m[39m
+    [90m 13| [39m    [34mrender[39m([33m<[39m[33mCodeInput[39m [33mvalue[39m[33m=[39m[32m""[39m [33monChange[39m[33m=[39m[33m{[39mvi[33m.[39m[34mfn[39m()[33m}[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m 14| [39m    
+    [90m 15| [39m    [35mconst[39m githubTab [33m=[39m screen[33m.[39m[34mgetByRole[39m([32m'button'[39m[33m,[39m { name[33m:[39m [36m/GitHub URL/i[39m…
+    [90m   | [39m                             [31m^[39m
+    [90m 16| [39m    fireEvent[33m.[39m[34mclick[39m(githubTab)[33m;[39m
+    [90m 17| [39m    
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/11]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/CodeInput.test.tsx[2m > [22mCodeInput Component[2m > [22mshows truncation warning if code exceeds limit
+[31m[1mTestingLibraryElementError[22m[39m: Unable to find an element with the text: /exceeds 30k characters/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"w-full flex flex-col gap-2"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33maria-label[39m=[32m"Code input methods"[39m
+        [33mclass[39m=[32m"flex border-b border-gray-200"[39m
+        [33mrole[39m=[32m"tablist"[39m
+      [36m>[39m
+        [36m<button[39m
+          [33maria-controls[39m=[32m"raw-code-panel"[39m
+          [33maria-selected[39m=[32m"true"[39m
+          [33mclass[39m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-blue-500 text-blue-600"[39m
+          [33mrole[39m=[32m"tab"[39m
+        [36m>[39m
+          [0mRaw Code[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33maria-controls[39m=[32m"url-panel"[39m
+          [33maria-selected[39m=[32m"false"[39m
+          [33mclass[39m=[32m"px-4 py-2 text-sm font-medium border-b-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 border-transparent text-gray-500 hover:text-gray-700"[39m
+          [33mrole[39m=[32m"tab"[39m
+        [36m>[39m
+          [0mGitHub URL[0m
+        [36m</button>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex flex-col gap-1"[39m
+        [33mid[39m=[32m"raw-code-panel"[39m
+        [33mrole[39m=[32m"tabpanel"[39m
+      [36m>[39m
+        [36m<label[39m
+          [33mclass[39m=[32m"sr-only"[39m
+          [33mfor[39m=[32m"code-textarea"[39m
+        [36m>[39m
+          [0mPaste raw code here[0m
+        [36m</label>[39m
+        [36m<textarea[39m
+          [33maria-describedby[39m=[32m"code-textarea-hint"[39m
+          [33mclass[39m=[32m"w-full h-48 p-3 text-sm font-mono border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500 resize-y"[39m
+          [33mid[39m=[32m"code-textarea"[39m
+          [33mplaceholder[39m=[32m"Paste your raw code here..."[39m
+        [36m>[39m
+          [0maaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/components/features/CodeInput.test.tsx:[2m34:19[22m[39m
+    [90m 32| [39m    [35mconst[39m longText [33m=[39m [32m'a'[39m[33m.[39m[34mrepeat[39m([34m30001[39m)[33m;[39m
+    [90m 33| [39m    [34mrender[39m([33m<[39m[33mCodeInput[39m [33mvalue[39m[33m=[39m[33m{[39mlongText[33m}[39m [33monChange[39m[33m=[39m[33m{[39mvi[33m.[39m[34mfn[39m()[33m}[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m 34| [39m    [34mexpect[39m(screen[33m.[39m[34mgetByText[39m([36m/exceeds 30k characters/i[39m))[33m.[39m[34mtoBeInTheDocum[39m…
+    [90m   | [39m                  [31m^[39m
+    [90m 35| [39m  })[33m;[39m
+    [90m 36| [39m})[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/11]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/QuestionBar.test.tsx[2m > [22mQuestionBar Component[2m > [22mrenders templates and input
+[31m[1mTestingLibraryElementError[22m: Unable to find an element with the placeholder text of: /Ask Gemini anything about this code/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col gap-4 w-full"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Quick prompt templates"[31m
+        [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+        [33mrole[31m=[32m"group"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Explain this"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mExplain this[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Summarise as PR"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mSummarise as PR[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Flag issues"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mFlag issues[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<form[31m
+        [33mclass[31m=[32m"flex gap-2 w-full"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"question-input"[31m
+        [36m>[31m
+          [0mAsk a question about the code[0m
+        [36m</label>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[31m
+          [33mid[31m=[32m"question-input"[31m
+          [33mplaceholder[31m=[32m"Ask a question about the codebase..."[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Submit question"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mtype[31m=[32m"submit"[31m
+        [36m>[31m
+          [0mSend[0m
+        [36m</button>[31m
+      [36m</form>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/components/features/QuestionBar.test.tsx:[2m9:19[22m[39m
+    [90m  7| [39m  [34mit[39m([32m'renders templates and input'[39m[33m,[39m () [33m=>[39m {
+    [90m  8| [39m    [34mrender[39m([33m<[39m[33mQuestionBar[39m [33monSubmit[39m[33m=[39m[33m{[39mvi[33m.[39m[34mfn[39m()[33m}[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m  9| [39m    [34mexpect[39m(screen[33m.[39m[34mgetByPlaceholderText[39m([36m/Ask Gemini anything about this[39m…
+    [90m   | [39m                  [31m^[39m
+    [90m 10| [39m    [34mexpect[39m(screen[33m.[39m[34mgetByText[39m([32m'Explain this code'[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m 11| [39m  })[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/11]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/QuestionBar.test.tsx[2m > [22mQuestionBar Component[2m > [22msubmits typed question
+[31m[1mTestingLibraryElementError[22m: Unable to find an element with the placeholder text of: /Ask Gemini anything about this code/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col gap-4 w-full"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Quick prompt templates"[31m
+        [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+        [33mrole[31m=[32m"group"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Explain this"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mExplain this[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Summarise as PR"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mSummarise as PR[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Flag issues"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mFlag issues[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<form[31m
+        [33mclass[31m=[32m"flex gap-2 w-full"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"question-input"[31m
+        [36m>[31m
+          [0mAsk a question about the code[0m
+        [36m</label>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[31m
+          [33mid[31m=[32m"question-input"[31m
+          [33mplaceholder[31m=[32m"Ask a question about the codebase..."[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Submit question"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mtype[31m=[32m"submit"[31m
+        [36m>[31m
+          [0mSend[0m
+        [36m</button>[31m
+      [36m</form>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/components/features/QuestionBar.test.tsx:[2m17:26[22m[39m
+    [90m 15| [39m    [34mrender[39m([33m<[39m[33mQuestionBar[39m [33monSubmit[39m[33m=[39m[33m{[39mhandleSubmit[33m}[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m 16| [39m    
+    [90m 17| [39m    [35mconst[39m input [33m=[39m screen[33m.[39m[34mgetByPlaceholderText[39m([36m/Ask Gemini anything abo[39m…
+    [90m   | [39m                         [31m^[39m
+    [90m 18| [39m    fireEvent[33m.[39m[34mchange[39m(input[33m,[39m { target[33m:[39m { value[33m:[39m [32m'How does it work?'[39m } }…
+    [90m 19| [39m    
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/11]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/QuestionBar.test.tsx[2m > [22mQuestionBar Component[2m > [22msubmits template question when clicked
+[31m[1mTestingLibraryElementError[22m: Unable to find an element with the text: Explain this code. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col gap-4 w-full"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Quick prompt templates"[31m
+        [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+        [33mrole[31m=[32m"group"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Explain this"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mExplain this[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Summarise as PR"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mSummarise as PR[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Use template: Flag issues"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+        [36m>[31m
+          [0mFlag issues[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<form[31m
+        [33mclass[31m=[32m"flex gap-2 w-full"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"question-input"[31m
+        [36m>[31m
+          [0mAsk a question about the code[0m
+        [36m</label>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[31m
+          [33mid[31m=[32m"question-input"[31m
+          [33mplaceholder[31m=[32m"Ask a question about the codebase..."[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Submit question"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mtype[31m=[32m"submit"[31m
+        [36m>[31m
+          [0mSend[0m
+        [36m</button>[31m
+      [36m</form>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/components/features/QuestionBar.test.tsx:[2m30:32[22m[39m
+    [90m 28| [39m    [34mrender[39m([33m<[39m[33mQuestionBar[39m [33monSubmit[39m[33m=[39m[33m{[39mhandleSubmit[33m}[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m 29| [39m    
+    [90m 30| [39m    [35mconst[39m templateBtn [33m=[39m screen[33m.[39m[34mgetByText[39m([32m'Explain this code'[39m)[33m;[39m
+    [90m   | [39m                               [31m^[39m
+    [90m 31| [39m    fireEvent[33m.[39m[34mclick[39m(templateBtn)[33m;[39m
+    [90m 32| [39m    
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/11]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/QuestionBar.test.tsx[2m > [22mQuestionBar Component[2m > [22mis disabled when disabled prop is true
+[31m[1mTestingLibraryElementError[22m: Unable to find an element with the placeholder text of: /Ask Gemini anything about this code/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"flex flex-col gap-4 w-full"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33maria-label[31m=[32m"Quick prompt templates"[31m
+        [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+        [33mrole[31m=[32m"group"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Use template: Explain this"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+          [33mdisabled[31m=[32m""[31m
+        [36m>[31m
+          [0mExplain this[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Use template: Summarise as PR"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+          [33mdisabled[31m=[32m""[31m
+        [36m>[31m
+          [0mSummarise as PR[0m
+        [36m</button>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Use template: Flag issues"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500 text-xs py-1 px-3"[31m
+          [33mdisabled[31m=[32m""[31m
+        [36m>[31m
+          [0mFlag issues[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<form[31m
+        [33mclass[31m=[32m"flex gap-2 w-full"[31m
+      [36m>[31m
+        [36m<label[31m
+          [33mclass[31m=[32m"sr-only"[31m
+          [33mfor[31m=[32m"question-input"[31m
+        [36m>[31m
+          [0mAsk a question about the code[0m
+        [36m</label>[31m
+        [36m<input[31m
+          [33mclass[31m=[32m"flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mid[31m=[32m"question-input"[31m
+          [33mplaceholder[31m=[32m"Ask a question about the codebase..."[31m
+          [33mtype[31m=[32m"text"[31m
+          [33mvalue[31m=[32m""[31m
+        [36m/>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"true"[31m
+          [33maria-label[31m=[32m"Submit question"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 "[31m
+          [33mdisabled[31m=[32m""[31m
+          [33mtype[31m=[32m"submit"[31m
+        [36m>[31m
+          [0mSend[0m
+        [36m</button>[31m
+      [36m</form>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/components/features/QuestionBar.test.tsx:[2m38:19[22m[39m
+    [90m 36| [39m  [34mit[39m([32m'is disabled when disabled prop is true'[39m[33m,[39m () [33m=>[39m {
+    [90m 37| [39m    [34mrender[39m([33m<[39m[33mQuestionBar[39m [33monSubmit[39m[33m=[39m[33m{[39mvi[33m.[39m[34mfn[39m()[33m}[39m [33mdisabled[39m[33m=[39m[33m{[39m[35mtrue[39m[33m}[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m 38| [39m    [34mexpect[39m(screen[33m.[39m[34mgetByPlaceholderText[39m([36m/Ask Gemini anything about this[39m…
+    [90m   | [39m                  [31m^[39m
+    [90m 39| [39m    [34mexpect[39m(screen[33m.[39m[34mgetByRole[39m([32m'button'[39m[33m,[39m { name[33m:[39m [36m/Send/i[39m }))[33m.[39m[34mtoBeDisabled[39m…
+    [90m 40| [39m  })[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/11]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/SessionSidebar.test.tsx[2m > [22mSessionSidebar Component[2m > [22mrenders loading state
+[31m[1mTestingLibraryElementError[22m: Unable to find an accessible element with the role "status"
+
+Here are the accessible roles:
+
+  complementary:
+
+  Name "Session History":
+  [36m<aside[31m
+    [33maria-label[31m=[32m"Session History"[31m
+    [33mclass[31m=[32m"w-64 h-full flex flex-col bg-gray-50 border-r border-gray-200"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  button:
+
+  Name "Start new session":
+  [36m<button[31m
+    [33maria-disabled[31m=[32m"false"[31m
+    [33maria-label[31m=[32m"Start new session"[31m
+    [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 w-full justify-center"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<aside[31m
+      [33maria-label[31m=[32m"Session History"[31m
+      [33mclass[31m=[32m"w-64 h-full flex flex-col bg-gray-50 border-r border-gray-200"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"p-4 border-b border-gray-200"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Start new session"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 w-full justify-center"[31m
+        [36m>[31m
+          [0m+ New Analysis[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex-1 overflow-y-auto p-2"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33maria-live[31m=[32m"polite"[31m
+          [33mclass[31m=[32m"p-4 text-center text-sm text-gray-500"[31m
+        [36m>[31m
+          [0mLoading history...[0m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</aside>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/components/features/SessionSidebar.test.tsx:[2m15:19[22m[39m
+    [90m 13| [39m  [34mit[39m([32m'renders loading state'[39m[33m,[39m () [33m=>[39m {
+    [90m 14| [39m    [34mrender[39m([33m<[39m[33mSessionSidebar[39m [33msessions[39m[33m=[39m[33m{[39m[][33m}[39m [33monSelectSession[39m[33m=[39m[33m{[39mvi[33m.[39m[34mfn[39m()[33m}[39m [33monD[39m…
+    [90m 15| [39m    [34mexpect[39m(screen[33m.[39m[34mgetByRole[39m([32m'status'[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m [90m// Loading[39m…
+    [90m   | [39m                  [31m^[39m
+    [90m 16| [39m  })[33m;[39m
+    [90m 17| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/11]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/SessionSidebar.test.tsx[2m > [22mSessionSidebar Component[2m > [22mcalls onNewSession when new analysis is clicked
+[31m[1mTestingLibraryElementError[22m: Unable to find an element with the text: New Analysis. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<aside[31m
+      [33maria-label[31m=[32m"Session History"[31m
+      [33mclass[31m=[32m"w-64 h-full flex flex-col bg-gray-50 border-r border-gray-200"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"p-4 border-b border-gray-200"[31m
+      [36m>[31m
+        [36m<button[31m
+          [33maria-disabled[31m=[32m"false"[31m
+          [33maria-label[31m=[32m"Start new session"[31m
+          [33mclass[31m=[32m"inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-500 w-full justify-center"[31m
+        [36m>[31m
+          [0m+ New Analysis[0m
+        [36m</button>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex-1 overflow-y-auto p-2"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"p-4 text-center text-sm text-gray-500"[31m
+        [36m>[31m
+          [0mNo past sessions[0m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</aside>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m src/tests/unit/components/features/SessionSidebar.test.tsx:[2m27:28[22m[39m
+    [90m 25| [39m    [35mconst[39m handleNew [33m=[39m vi[33m.[39m[34mfn[39m()[33m;[39m
+    [90m 26| [39m    [34mrender[39m([33m<[39m[33mSessionSidebar[39m [33msessions[39m[33m=[39m[33m{[39m[][33m}[39m [33monSelectSession[39m[33m=[39m[33m{[39mvi[33m.[39m[34mfn[39m()[33m}[39m [33monD[39m…
+    [90m 27| [39m    fireEvent[33m.[39m[34mclick[39m(screen[33m.[39m[34mgetByText[39m([32m'New Analysis'[39m))[33m;[39m
+    [90m   | [39m                           [31m^[39m
+    [90m 28| [39m    [34mexpect[39m(handleNew)[33m.[39m[34mtoHaveBeenCalled[39m()[33m;[39m
+    [90m 29| [39m  })[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/11]⎯[22m[39m
+
+[2m Test Files [22m [1m[31m4 failed[39m[22m[2m | [22m[1m[32m17 passed[39m[22m[90m (21)[39m
+[2m      Tests [22m [1m[31m11 failed[39m[22m[2m | [22m[1m[32m118 passed[39m[22m[90m (129)[39m
+[2m   Start at [22m 01:23:18
+[2m   Duration [22m 29.33s[2m (transform 25.79s, setup 77.01s, collect 65.03s, tests 12.13s, environment 252.37s, prepare 14.32s)[22m
+

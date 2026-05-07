@@ -1,0 +1,27 @@
+{
+  "name": "__APP_FULL_NAME__",
+  "short_name": "__APP_SHORT_NAME__",
+  "description": "__APP_DESCRIPTION__",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "lang": "en",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%234F46E5'/><text y='.9em' font-size='60' text-anchor='middle' x='50' dominant-baseline='middle' dy='5'>__APP_ICON_EMOJI__</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open App",
+      "url": "/",
+      "description": "Open __APP_SHORT_NAME__ directly"
+    }
+  ]
+}

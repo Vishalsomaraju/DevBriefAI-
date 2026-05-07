@@ -1,0 +1,196 @@
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mE:/DevBrief AI[39m
+
+ [33m❯[39m src/tests/unit/components/ui/Button.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+ [32m✓[39m src/tests/unit/utils.test.ts [2m ([22m[2m10 tests[22m[2m)[22m[33m 339[2mms[22m[39m
+ [33m❯[39m src/tests/unit/pages/LandingPage.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+ [33m❯[39m src/tests/unit/pages/AppPage.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+ [33m❯[39m src/tests/unit/components/features/QuestionBar.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+ [32m✓[39m src/tests/SUITE_TEMPLATES.test.ts [2m ([22m[2m53 tests[22m[2m)[22m[33m 335[2mms[22m[39m
+ [32m✓[39m src/tests/security/config.test.ts [2m ([22m[2m10 tests[22m[2m)[22m[90m 158[2mms[22m[39m
+ [32m✓[39m src/tests/unit/services/sessionService.test.ts [2m ([22m[2m4 tests[22m[2m)[22m[90m 130[2mms[22m[39m
+ [32m✓[39m src/tests/integration/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 14[2mms[22m[39m
+ [33m❯[39m src/tests/unit/components/features/SessionSidebar.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+[90mstderr[2m | src/tests/unit/services/authService.test.ts[2m > [22m[2mAuthService[2m > [22m[2msignInWithGoogle handles errors[22m[39m
+[AuthService] Google Sign-In Failed: Error: Auth failed
+    at [90mE:\DevBrief AI\[39msrc\tests\unit\services\authService.test.ts:18:52
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:135:14
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:60:26
+    at runTest [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:781:17[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runFiles [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:958:5[90m)[39m
+    at startTests [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:967:3[90m)[39m
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:116:7
+    at withEnv [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:83:5[90m)[39m
+
+ [32m✓[39m src/tests/unit/services/authService.test.ts [2m ([22m[2m4 tests[22m[2m)[22m[90m 283[2mms[22m[39m
+ [33m❯[39m src/tests/unit/components/ui/Modal.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+ [33m❯[39m src/tests/unit/components/features/CodeInput.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+ [33m❯[39m src/tests/unit/components/ui/StreamingText.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+[90mstderr[2m | src/tests/unit/services/geminiService.test.ts[2m > [22m[2mGeminiService[2m > [22m[2mstreamCodeAnalysis handles successful stream[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+[90mstderr[2m | src/tests/unit/services/geminiService.test.ts[2m > [22m[2mGeminiService[2m > [22m[2mstreamCodeAnalysis handles successful stream[22m[39m
+[GeminiService] Streaming Error: TypeError: Cannot read properties of undefined (reading 'stream')
+    at GeminiService.streamCodeAnalysis [90m(E:\DevBrief AI\[39msrc\services\geminiService.ts:54:40[90m)[39m
+    at [90mE:\DevBrief AI\[39msrc\tests\unit\services\geminiService.test.ts:46:5
+    at runTest [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:781:11[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runFiles [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:958:5[90m)[39m
+    at startTests [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:967:3[90m)[39m
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:116:7
+    at withEnv [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:83:5[90m)[39m
+    at run [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:105:3[90m)[39m
+
+[90mstderr[2m | src/tests/unit/services/geminiService.test.ts[2m > [22m[2mGeminiService[2m > [22m[2mstreamCodeAnalysis handles error in stream[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+[GeminiService] Streaming Error: TypeError: Cannot read properties of undefined (reading 'stream')
+    at GeminiService.streamCodeAnalysis [90m(E:\DevBrief AI\[39msrc\services\geminiService.ts:54:40[90m)[39m
+    at [90mE:\DevBrief AI\[39msrc\tests\unit\services\geminiService.test.ts:66:5
+    at runTest [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:781:11[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runSuite [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:909:15[90m)[39m
+    at runFiles [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:958:5[90m)[39m
+    at startTests [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4m@vitest/runner[24m/dist/index.js:967:3[90m)[39m
+    at [90mfile:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:116:7
+    at withEnv [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:83:5[90m)[39m
+    at run [90m(file:///E:/DevBrief%20AI/[39mnode_modules/[4mvitest[24m/dist/chunks/runtime-runBaseTests.oAvMKtQC.js:105:3[90m)[39m
+
+ [33m❯[39m src/tests/unit/services/geminiService.test.ts [2m ([22m[2m2 tests[22m [2m|[22m [31m2 failed[39m[2m)[22m[33m 369[2mms[22m[39m
+[31m   [33m❯[31m src/tests/unit/services/geminiService.test.ts[2m > [22mGeminiService[2m > [22mstreamCodeAnalysis handles successful stream[39m
+[31m     → expected "spy" to be called at least once[39m
+[31m   [33m❯[31m src/tests/unit/services/geminiService.test.ts[2m > [22mGeminiService[2m > [22mstreamCodeAnalysis handles error in stream[39m
+[31m     → expected "spy" to be called with arguments: [ 'gemini', 'API Error' ][90m
+
+Received: 
+
+[1m  1st spy call:
+
+[22m[2m  Array [[22m
+[2m    "gemini",[22m
+[32m-   "API Error",[90m
+[31m+   "Cannot read properties of undefined (reading 'stream')",[90m
+[2m  ][22m
+[31m[90m
+
+Number of calls: [1m1[22m
+[31m[39m
+[90mstderr[2m | src\config\env.ts:36:13[22m[39m
+Missing environment variable: VITE_FIREBASE_API_KEY
+Missing environment variable: VITE_FIREBASE_AUTH_DOMAIN
+Missing environment variable: VITE_FIREBASE_PROJECT_ID
+Missing environment variable: VITE_FIREBASE_STORAGE_BUCKET
+Missing environment variable: VITE_FIREBASE_MESSAGING_SENDER_ID
+Missing environment variable: VITE_FIREBASE_APP_ID
+Missing environment variable: VITE_GA_MEASUREMENT_ID
+Missing environment variable: VITE_GEMINI_API_KEY
+
+ [32m✓[39m src/tests/unit/services/analyticsService.test.ts [2m ([22m[2m5 tests[22m[2m)[22m[90m 16[2mms[22m[39m
+ [33m❯[39m src/tests/unit/components/ui/Input.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+ [32m✓[39m src/tests/accessibility/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 2[2mms[22m[39m
+ [32m✓[39m src/tests/unit/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m src/tests/edge-cases/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 57[2mms[22m[39m
+ [32m✓[39m src/tests/security/basic.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 16[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯[1m[7m Failed Suites 9 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/pages/AppPage.test.tsx [2m[ src/tests/unit/pages/AppPage.test.tsx ][22m
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/pages/LandingPage.test.tsx [2m[ src/tests/unit/pages/LandingPage.test.tsx ][22m
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/ui/Button.test.tsx [2m[ src/tests/unit/components/ui/Button.test.tsx ][22m
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/ui/Input.test.tsx [2m[ src/tests/unit/components/ui/Input.test.tsx ][22m
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/ui/Modal.test.tsx [2m[ src/tests/unit/components/ui/Modal.test.tsx ][22m
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/ui/StreamingText.test.tsx [2m[ src/tests/unit/components/ui/StreamingText.test.tsx ][22m
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/CodeInput.test.tsx [2m[ src/tests/unit/components/features/CodeInput.test.tsx ][22m
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/QuestionBar.test.tsx [2m[ src/tests/unit/components/features/QuestionBar.test.tsx ][22m
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/components/features/SessionSidebar.test.tsx [2m[ src/tests/unit/components/features/SessionSidebar.test.tsx ][22m
+[31m[1mError[22m: Cannot find module '@testing-library/dom'
+Require stack:
+- E:\DevBrief AI\node_modules\@testing-library\react\dist\pure.js[39m
+[90m [2m❯[22m TracingChannel.traceSync node:diagnostics_channel:[2m328:14[22m[39m
+[90m [2m❯[22m Object.<anonymous> node_modules/@testing-library/react/dist/pure.js:[2m46:12[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22m[39m
+[31m[1mSerialized Error:[22m[39m [90m{ code: 'MODULE_NOT_FOUND', requireStack: [ 'E:\DevBrief AI\node_modules\@testing-library\react\dist\pure.js' ] }[39m
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/11]⎯[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[1m[7m Failed Tests 2 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/services/geminiService.test.ts[2m > [22mGeminiService[2m > [22mstreamCodeAnalysis handles successful stream
+[31m[1mAssertionError[22m: expected "spy" to be called at least once[39m
+[36m [2m❯[22m src/tests/unit/services/geminiService.test.ts:[2m48:45[22m[39m
+    [90m 46| [39m    [35mawait[39m geminiService[33m.[39m[34mstreamCodeAnalysis[39m([32m'What does this do?'[39m[33m,[39m [32m'cons[39m…
+    [90m 47| [39m    
+    [90m 48| [39m    [34mexpect[39m(modelMock[33m.[39mgenerateContentStream)[33m.[39m[34mtoHaveBeenCalled[39m()[33m;[39m
+    [90m   | [39m                                            [31m^[39m
+    [90m 49| [39m    [34mexpect[39m(analyticsService[33m.[39mtrackQuestionAsked)[33m.[39m[34mtoHaveBeenCalled[39m()[33m;[39m
+    [90m 50| [39m    [34mexpect[39m(onChunk)[33m.[39m[34mtoHaveBeenCalledWith[39m([32m'chunk'[39m)[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/11]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/tests/unit/services/geminiService.test.ts[2m > [22mGeminiService[2m > [22mstreamCodeAnalysis handles error in stream
+[31m[1mAssertionError[22m: expected "spy" to be called with arguments: [ 'gemini', 'API Error' ][90m
+
+Received: 
+
+[1m  1st spy call:
+
+[22m[2m  Array [[22m
+[2m    "gemini",[22m
+[32m-   "API Error",[90m
+[31m+   "Cannot read properties of undefined (reading 'stream')",[90m
+[2m  ][22m
+[31m[90m
+
+Number of calls: [1m1[22m
+[31m[39m
+[36m [2m❯[22m src/tests/unit/services/geminiService.test.ts:[2m68:41[22m[39m
+    [90m 66| [39m    [35mawait[39m geminiService[33m.[39m[34mstreamCodeAnalysis[39m([32m'What?'[39m[33m,[39m [32m'code'[39m[33m,[39m onChunk)[33m;[39m
+    [90m 67| [39m    
+    [90m 68| [39m    [34mexpect[39m(analyticsService[33m.[39mtrackError)[33m.[39m[34mtoHaveBeenCalledWith[39m([32m'gemini'[39m[33m,[39m…
+    [90m   | [39m                                        [31m^[39m
+    [90m 69| [39m  })[33m;[39m
+    [90m 70| [39m})[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/11]⎯[22m[39m
+
+[2m Test Files [22m [1m[31m10 failed[39m[22m[2m | [22m[1m[32m11 passed[39m[22m[90m (21)[39m
+[2m      Tests [22m [1m[31m2 failed[39m[22m[2m | [22m[1m[32m91 passed[39m[22m[90m (93)[39m
+[2m   Start at [22m 00:49:54
+[2m   Duration [22m 26.59s[2m (transform 10.09s, setup 38.89s, collect 6.50s, tests 1.72s, environment 238.08s, prepare 31.25s)[22m
+

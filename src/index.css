@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Global focus-visible accessibility */
+  :focus-visible {
+    outline: 2px solid theme('colors.blue.500');
+    outline-offset: 2px;
+  }
+
+  /* Prefer-reduced-motion respecting */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* High contrast mode adjustments if needed */
+  @media (prefers-contrast: more) {
+    :root {
+      --text-contrast: #000000;
+      --bg-contrast: #ffffff;
+    }
+  }
+}
+
+@layer utilities {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: theme('colors.gray.50');
+  color: theme('colors.gray.900');
+}
+
+/* Base styles for markdown content in StreamingText */
+.prose pre {
+  background-color: theme('colors.gray.900');
+  color: theme('colors.gray.50');
+  border-radius: theme('borderRadius.md');
+  padding: theme('spacing.4');
+  overflow-x: auto;
+}
+
+.prose code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background-color: theme('colors.gray.100');
+  padding: theme('spacing.1') theme('spacing.2');
+  border-radius: theme('borderRadius.sm');
+  font-size: 0.875em;
+}
+
+.prose pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}
