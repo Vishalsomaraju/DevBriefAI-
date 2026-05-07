@@ -1,6 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent, waitFor, act } from '@testing-library/react';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { MemoryRouter } from 'react-router-dom';
 import { AppPage } from '@/pages/AppPage';
 import { authService } from '@/services/authService';
 import { sessionService } from '@/services/sessionService';
@@ -22,7 +23,7 @@ vi.mock('@/services/sessionService', () => ({
 
 vi.mock('@/services/geminiService', () => ({
   geminiService: {
-    streamCodeAnalysis: vi.fn().mockResolvedValue(undefined)
+    streamCodeAnalysis: vi.fn().mockResolvedValue({ data: 'mocked answer', error: null })
   }
 }));
 
@@ -85,17 +86,17 @@ describe('AppPage', () => {
   });
 
   it('renders workspace layout', async () => {
-    await act(async () => { render(<AppPage />); });
+    await act(async () => { render(<MemoryRouter><AppPage /></MemoryRouter>); });
     expect(screen.getByRole('main', { name: /Workspace/i })).toBeInTheDocument();
   });
 
   it('shows "New Analysis" heading by default', async () => {
-    await act(async () => { render(<AppPage />); });
+    await act(async () => { render(<MemoryRouter><AppPage /></MemoryRouter>); });
     expect(screen.getByText('New Analysis')).toBeInTheDocument();
   });
 
   it('handles new session button click', async () => {
-    await act(async () => { render(<AppPage />); });
+    await act(async () => { render(<MemoryRouter><AppPage /></MemoryRouter>); });
     const newBtn = screen.getByRole('button', { name: /Start new session/i });
     await act(async () => { fireEvent.click(newBtn); });
     expect(screen.getByText('New Analysis')).toBeInTheDocument();
@@ -106,7 +107,7 @@ describe('AppPage', () => {
       data: { id: 'sess-1', title: 'My Session', entries: [], codeContext: 'const x = 1;', userId: 'u1', createdAt: 1, updatedAt: 2 },
       error: null
     });
-    await act(async () => { render(<AppPage />); });
+    await act(async () => { render(<MemoryRouter><AppPage /></MemoryRouter>); });
     const selectBtn = screen.getByRole('button', { name: /Select session/i });
     await act(async () => { fireEvent.click(selectBtn); });
     await waitFor(() => {
@@ -115,14 +116,14 @@ describe('AppPage', () => {
   });
 
   it('handles delete session', async () => {
-    await act(async () => { render(<AppPage />); });
+    await act(async () => { render(<MemoryRouter><AppPage /></MemoryRouter>); });
     const deleteBtn = screen.getByRole('button', { name: /Delete session/i });
     await act(async () => { fireEvent.click(deleteBtn); });
     expect(sessionService.deleteSession).toHaveBeenCalledWith('sess-1');
   });
 
   it('submits a question and calls geminiService', async () => {
-    await act(async () => { render(<AppPage />); });
+    await act(async () => { render(<MemoryRouter><AppPage /></MemoryRouter>); });
     
     // Set code context first
     const codeInput = screen.getByTestId('code-input');
@@ -141,7 +142,7 @@ describe('AppPage', () => {
   it('shows loading state during stream', async () => {
     vi.mocked(geminiService.streamCodeAnalysis).mockImplementation(() => new Promise(resolve => setTimeout(resolve, 100)));
     
-    await act(async () => { render(<AppPage />); });
+    await act(async () => { render(<MemoryRouter><AppPage /></MemoryRouter>); });
     
     const codeInput = screen.getByTestId('code-input');
     await act(async () => {

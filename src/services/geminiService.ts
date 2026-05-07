@@ -13,7 +13,11 @@ class GeminiService {
   private genAI: GoogleGenerativeAI;
 
   constructor() {
-    this.genAI = new GoogleGenerativeAI(ENV.gemini.apiKey);
+    const apiKey = ENV.gemini.apiKey;
+    if (!apiKey) {
+      console.error('[GeminiService] API Key is missing. Check your .env file.');
+    }
+    this.genAI = new GoogleGenerativeAI(apiKey || 'MISSING_KEY');
   }
 
   /**

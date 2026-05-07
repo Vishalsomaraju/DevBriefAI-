@@ -33,10 +33,11 @@ service cloud.firestore {
                     && request.resource.data.updatedAt is number;
                     
       allow update: if isOwner(resource.data.userId)
-                    && hasOnlyFields(['title', 'entries', 'updatedAt'])
+                    && hasOnlyFields(['title', 'entries', 'updatedAt', 'codeContext'])
                     && request.resource.data.title is string
                     && request.resource.data.entries is list
-                    && request.resource.data.updatedAt is number;
+                    && request.resource.data.updatedAt is number
+                    && request.resource.data.codeContext is string;
                     
       allow delete: if false; // Soft-delete only
     }

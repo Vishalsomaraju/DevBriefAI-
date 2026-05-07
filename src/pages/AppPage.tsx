@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { analyticsService } from '@/services/analyticsService';
 import { authService } from '@/services/authService';
 import { sessionService } from '@/services/sessionService';
@@ -11,6 +12,7 @@ import { Session, QAEntry } from '@/types';
 import { User } from 'firebase/auth';
 
 export const AppPage: React.FC = () => {
+  const navigate = useNavigate();
   const [user, setUser] = useState<User | null>(null);
   const [sessions, setSessions] = useState<Session[]>([]);
   const [activeSession, setActiveSession] = useState<Session | null>(null);
@@ -25,6 +27,9 @@ export const AppPage: React.FC = () => {
       if (u) {
         const res = await sessionService.getUserSessions(u.uid);
         if (!res.error) setSessions(res.data || []);
+      } else {
+        // Guard: Redirect if not authenticated
+        navigate('/', { replace: true });
       }
       setSidebarLoading(false);
     });
@@ -89,7 +94,7 @@ export const AppPage: React.FC = () => {
 
     setActiveSession(sessionToUpdate);
 
-    await geminiService.streamCodeAnalysis(question, codeContext, (chunk) => {
+    const res = await geminiService.streamCodeAnalysis(question, codeContext, (chunk) => {
       setActiveSession((prev) => {
         if (!prev) return prev;
         const updatedEntries = prev.entries.map((entry) => {
@@ -101,6 +106,18 @@ export const AppPage: React.FC = () => {
         return { ...prev, entries: updatedEntries };
       });
     });
+
+    if (res.error) {
+      alert(`AI Error: ${res.error}`);
+      // Clean up the empty entry on error
+      setActiveSession((prev) => {
+        if (!prev) return prev;
+        return {
+          ...prev,
+          entries: prev.entries.filter(e => e.id !== newEntryId)
+        };
+      });
+    }
 
     setIsStreaming(false);
 

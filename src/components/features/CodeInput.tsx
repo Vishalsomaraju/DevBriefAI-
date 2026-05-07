@@ -78,7 +78,7 @@ export const CodeInput: React.FC<CodeInputProps> = ({ value, onChange, disabled 
             className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:border-blue-500"
           />
           <button
-            onClick={() => {/* Implement URL fetch logic here */}}
+            onClick={() => alert('GitHub URL fetching is coming soon! Please paste raw code for now.')}
             disabled={disabled || !url}
             className="px-4 py-2 bg-gray-200 text-gray-900 rounded-md hover:bg-gray-300 disabled:opacity-50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500"
           >
